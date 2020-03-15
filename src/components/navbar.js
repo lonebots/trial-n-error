@@ -2,6 +2,7 @@ import React from "react";
 import { Nav, Navbar } from "react-bootstrap";
 import styled from "styled-components";
 const Styles = styled.div`
+import "./components/assets/css/nav.css";
 
 .navbar{    
     background-color=#222;
@@ -15,7 +16,14 @@ const Styles = styled.div`
 `;
 export const Nabar = () => (
   <Styles>
-    <Navbar collapsOnSelect expand-="lg" bg="dark" variant="dark" fixed="top">
+    <Navbar
+      collapsOnSelect
+      expand-="lg"
+      bg="dark"
+      variant="dark"
+      fixed="top"
+      className="hi"
+    >
       <Navbar.Brand href="/">Flea</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">

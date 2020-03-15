@@ -4,6 +4,8 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Carousel from "react-bootstrap/Carousel";
 import "./components/assets/css/greet.css";
+import Flea from "./components/assets/image/flea.jpg";
+import "./components/assets/css/home.css";
 
 export const Home = () => (
   <>
@@ -27,8 +29,9 @@ export const Home = () => (
               <Carousel.Item>munch.</Carousel.Item>
             </Carousel>
           </Col>
-
-          <Col xs={6} md={4}></Col>
+          <Col xs={6} md={4}>
+            <img src={Flea} className="fle" />
+          </Col>
         </Row>
       </Container>
     </div>
