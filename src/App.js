@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Home } from "./home";
-import { About } from "./about";
+import { Help } from "./Help";
 
 import { Nomatch } from "./nomatch";
 import { Nabar } from "./components/navbar";
@@ -16,7 +16,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
 
-          <Route exact path="/about" component={About} />
+          <Route exact path="/help" component={Help} />
           <Route component={Nomatch} />
         </Switch>
       </Router>
