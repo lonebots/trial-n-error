@@ -7,13 +7,13 @@ export const Nabar = () => (
   <Navbar
     collapsOnSelect
     expand-="lg"
-   
     fixed="top"
     className="hi"
+    variant="dark"
   >
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
-      <Nav>
+      <Nav className="li">
         <Nav.Item>
           <Nav.Link href="/">Home</Nav.Link>
         </Nav.Item>
